@@ -5,7 +5,6 @@ import com.itmokers.kaleidoscope.domain.DbFields;
 import com.itmokers.kaleidoscope.exception.BizException;
 import com.itmokers.kaleidoscope.utils.NormalLocalUtils;
 import com.itmokers.kaleidoscope.utils.SqlParameterUtils;
-import com.sun.istack.internal.NotNull;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.util.CollectionUtils;
 
@@ -198,7 +197,7 @@ public interface ResearchMapper<M, G extends DbDomain<M>> {
     }
 
 
-    default long countByMap(@NotNull Map<String, Object> para, boolean onlyValid) throws BizException {
+    default long countByMap(Map<String, Object> para, boolean onlyValid) throws BizException {
         if (onlyValid) {
             para.put(DbFields.DEL_FLAG_ATTRIBUTE, DbFields.DEL_FLAG_OK);
         } else {
