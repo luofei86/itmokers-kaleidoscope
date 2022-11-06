@@ -2,7 +2,7 @@
 package com.itmokers.kaleidoscope.service;
 
 import com.itmokers.kaleidoscope.domain.DbDomain;
-import com.itmokers.kaleidoscope.domain.exception.BizException;
+import com.itmokers.kaleidoscope.exception.BizException;
 import com.itmokers.kaleidoscope.mapper.CommonCrudMapper;
 
 import org.apache.commons.lang3.StringUtils;

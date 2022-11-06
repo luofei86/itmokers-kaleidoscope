@@ -2,7 +2,7 @@
 package com.itmokers.kaleidoscope.utils;
 
 import com.itmokers.kaleidoscope.domain.DbFields;
-import com.itmokers.kaleidoscope.domain.exception.BizException;
+import com.itmokers.kaleidoscope.exception.BizException;
 import com.itmokers.kaleidoscope.enums.EnumSqlOrderType;
 import com.itmokers.kaleidoscope.model.DbFieldConstraint;
 import lombok.extern.slf4j.Slf4j;

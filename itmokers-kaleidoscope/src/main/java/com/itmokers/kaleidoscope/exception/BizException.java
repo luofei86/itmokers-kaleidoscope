@@ -1,5 +1,5 @@
 //Copyright © 2016 - 2020 luofei86@gmail.com All Rights Reserved.罗飞 版本所有
-package com.itmokers.kaleidoscope.domain.exception;
+package com.itmokers.kaleidoscope.exception;
 
 /**
  * @author luofei

@@ -1,7 +1,7 @@
 package com.itmokers.kaleidoscope.mapper;
 
 import com.itmokers.kaleidoscope.domain.DbDomain;
-import com.itmokers.kaleidoscope.domain.exception.BizException;
+import com.itmokers.kaleidoscope.exception.BizException;
 
 import java.util.List;
 

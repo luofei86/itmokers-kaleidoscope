@@ -1,6 +1,6 @@
 // Copyright 2015 ios.appchina.com Inc. All Rights Reserved.
 
-package com.itmokers.kaleidoscope.enums.filters;
+package com.itmokers.kaleidoscope.filters;
 
 
 import lombok.Data;

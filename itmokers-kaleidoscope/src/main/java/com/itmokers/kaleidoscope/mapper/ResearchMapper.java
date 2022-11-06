@@ -2,7 +2,7 @@ package com.itmokers.kaleidoscope.mapper;
 
 import com.itmokers.kaleidoscope.domain.DbDomain;
 import com.itmokers.kaleidoscope.domain.DbFields;
-import com.itmokers.kaleidoscope.domain.exception.BizException;
+import com.itmokers.kaleidoscope.exception.BizException;
 import com.itmokers.kaleidoscope.utils.NormalLocalUtils;
 import com.itmokers.kaleidoscope.utils.SqlParameterUtils;
 import com.sun.istack.internal.NotNull;
